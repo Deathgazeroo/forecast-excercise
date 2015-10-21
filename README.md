@@ -14,4 +14,4 @@ python -m SimpleHTTPServer
 ```
 
 
-so templateUrl properties work as it should
+so templateUrl property work as it should
