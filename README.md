@@ -14,4 +14,4 @@ python -m SimpleHTTPServer
 ```
 
 
-so templateUrl property work as it should
+in project root, so templateUrl property work as it should
