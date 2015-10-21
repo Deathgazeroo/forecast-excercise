@@ -1,0 +1,27 @@
+<!-- templates/forecast.html -->
+
+	<h1>Forecast - Angular</h1>
+	<hr></hr>
+
+	<input type="text" name="city" ng-model="vm.city" required>
+
+	<select name="language" ng-model="vm.language">
+      <option value="en">English</option>
+      <option value="de">German</option>
+      <option value="hr">Croatian</option>
+      <option value="uk">Ukrainian</option>
+    </select>
+
+    <button ng-click="vm.getForecast(vm.city, vm.language)">Get forecast!</button>
+
+    <div ng-cloak ng-show="vm.dataExists">
+    	Temperature: {{ main.temp }} </br>
+    	Pressure: {{ main.pressure }} </br>
+    	Humidity: {{ main.humidity }} </br>
+    	Temp-min: {{ main.temp_min }} </br>
+    	Temp-max: {{ main.temp_max }} </br>
+    	<div ng-repeat="info in weather">
+    		Description: {{ info.description }} </br>
+    		Additional info: {{ info.main }} </br>
+    	</div>
+    </div>

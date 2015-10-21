@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <title>Forecast</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Styles -->
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body ng-controller="ForecastController as vm">
+    <!-- <div ui-view></div>
+        <a ui-sref="forecast">Forecast</a> -->
+
+    <div data-forecast city="munich" language="en"></div>
+
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+    <!-- Angular UI router
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script> -->
+
+    <!-- Latest angular-resource -->
+    <script src="assets/js/angular-resource.js"></script>
+
+    <!-- angular app -->
+    <script src="assets/app/app.module.js"></script>
+    <script src="assets/app/forecast/forecast.module.js"></script>
+    <script src="assets/app/forecast/forecast.factory.js"></script>
+    <script src="assets/app/forecast/forecast.directive.js"></script>
+    <script src="assets/app/forecast/forecast.controller.js"></script>
+
+</body>
+</html>

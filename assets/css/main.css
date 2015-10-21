@@ -1,0 +1,8 @@
+body {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
