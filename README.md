@@ -1,7 +1,4 @@
 # README #
-
-Hybris test app
-
 ### How do I get set up? ###
 
 I recommend 
